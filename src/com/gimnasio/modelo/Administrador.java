@@ -15,7 +15,8 @@ public class Administrador extends Persona {
 
     @Override
     public String toString() {
-        return presentarse() + " | Área: " + area;
+        return presentarse() + " | Área: " + area
+                + " | Cuota mensual: " + Gimnasio.dinero(calcularCuotaMensual());
     }
 }
 

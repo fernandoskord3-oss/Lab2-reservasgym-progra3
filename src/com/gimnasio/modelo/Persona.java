@@ -22,4 +22,3 @@ public abstract class Persona {
     // Método abstracto: cada rol calcula su cuota de forma distinta
     public abstract double calcularCuotaMensual();
 }
-
