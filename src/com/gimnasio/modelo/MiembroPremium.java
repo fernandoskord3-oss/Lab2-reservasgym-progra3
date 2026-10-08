@@ -17,8 +17,6 @@ public class MiembroPremium extends Miembro {
     public double calcularCuotaDiaria() {
         return super.calcularCuotaDiaria() * (1 - DESCUENTO);
     }
-
-    // Sobrescritura de nuevo: el premium cancela sin penalización y con reembolso total
     @Override
     public void cancelar(String horario) {
         Reserva reserva = retirarReserva(horario);
@@ -36,7 +34,6 @@ public class MiembroPremium extends Miembro {
     public String toString() {
         return presentarse() + " | PREMIUM"
                 + " | Cuota mensual: " + Gimnasio.dinero(calcularCuotaMensual())
-                + " | Cuota diaria: " + Gimnasio.dinero(calcularCuotaDiaria());
+                + " | Cuota diaria:  " + Gimnasio.dinero(calcularCuotaDiaria());
     }
 }
-

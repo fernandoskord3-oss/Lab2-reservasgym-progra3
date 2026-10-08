@@ -25,7 +25,7 @@ public class Miembro extends Persona implements Reservable {
         reservar(horario, 1);
     }
 
-    // Sobrecarga 2: reserva para varias personas (mismo nombre, distinta firma)
+    // Sobrecarga 2: reserva para varias personas (misma clase, distinta firma)
     public void reservar(String horario, int cantidadPersonas) {
         if (cantidadPersonas < 1) {
             System.out.println(nombre + ": la reserva debe ser para al menos 1 persona");
@@ -43,7 +43,6 @@ public class Miembro extends Persona implements Reservable {
         System.out.println(nombre + " reservó " + reserva);
     }
 
-    // El miembro normal paga una penalización sobre el costo de la reserva
     @Override
     public void cancelar(String horario) {
         Reserva reserva = retirarReserva(horario);
@@ -96,4 +95,3 @@ public class Miembro extends Persona implements Reservable {
                 + " | Cuota diaria: " + Gimnasio.dinero(calcularCuotaDiaria());
     }
 }
-

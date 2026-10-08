@@ -59,6 +59,28 @@ public class Main {
         for (Miembro m : socios) {
             System.out.println(m.getNombre() + ": " + m.cantidadReservas()
                     + " reserva(s) | Total: " + Gimnasio.dinero(m.calcularTotalReservas()));
-        }
-    }
-}
+        } // Cierra el bucle for
+
+        System.out.println("\n--- 1. Pruebas de Sobrecarga (reservar) ---");
+        // Constructor con los 3 parámetros: (nombre, carnet, correo)
+        Miembro miembro1 = new Miembro("Fernanda Cortez", "CC-69741-25", "fernanda@gym.com");
+
+        // Invoca a la versión individual
+        miembro1.reservar("08:00 AM");
+        // Invoca a la versión grupal
+        miembro1.reservar("05:30 PM", 4);
+
+        System.out.println("\n--- 2. Pruebas de Sobrescritura (cancelar) ---");
+        Miembro clienteEstandar = new Miembro("Edgardo Castellanos", "CP-69742-25", "edgardo@gym.com");
+        Miembro clientePremium = new MiembroPremium("Carlos Ruiz", "CR-10022-25", "carlos@gym.com");
+
+        // Reservas previas para poder cancelarlas
+        clienteEstandar.reservar("09:00 AM");
+        clientePremium.reservar("11:00 AM");
+
+        System.out.println("\n--- Ejecución de cancelaciones polimórficas ---");
+        clienteEstandar.cancelar("09:00 AM"); // Ejecuta lógica con penalización
+        System.out.println("--------------------------------------------------");
+        clientePremium.cancelar("11:00 AM");  // Ejecuta beneficio VIP sin penalización
+    } // Cierra el método main
+} // Cierra la clase Main
