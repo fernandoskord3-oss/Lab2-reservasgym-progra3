@@ -58,7 +58,7 @@ Ejemplo: Ana reserva para 3 personas → $3.00 + 2 × $2.00 = $7.00. Si cancela,
 |---|---|---|---|
 | Fernando Miguel Elías Soriano | ES-67880-24 | Herencia multinivel | Coevaluación: 100% |
 | Melvin Alexander García Ramos | GR-67963-24 | Clases abstractas | Coevaluación: 100% |
-| Edgardo Alexander Castellanos Paredes | CP-69742-25 | Polimorfismo por sobrecarga | _(pendiente)_ |
+| Edgardo Alexander Castellanos Paredes | CP-69742-25 | Polimorfismo por sobrecarga |Coevaluación: 100%|
 Fernanda Aneliz Cortez Chavez | CC-69741-25 | Polimorfismo (Sobrecarga y Sobrescritura) | Coevaluación: 100%
 | Isaías Humberto Mezquita García | MG-69776-25 | Interfaces | _(pendiente)_ |
 | Cristina Eunice Gómez Canales | GC-69628-25 | Integración final del proyecto | _(pendiente)_ |
