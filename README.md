@@ -59,7 +59,7 @@ Ejemplo: Ana reserva para 3 personas → $3.00 + 2 × $2.00 = $7.00. Si cancela,
 | Fernando Miguel Elías Soriano | ES-67880-24 | Herencia multinivel | _(pendiente)_ |
 | Melvin Alexander García Ramos | GR-67063-24 | Clases abstractas | _(pendiente)_ |
 | Edgardo Alexander Castellanos Paredes | CP-69742-25 | Polimorfismo por sobrecarga | _(pendiente)_ |
-| Fernanda Aneliz Cortez Chavez | CC-69741-25 | Polimorfismo por sobrescritura | _(pendiente)_ |
+Fernanda Aneliz Cortez Chavez | Carnet: CC-69741-25 | Concepto a defender: Polimorfismo (Sobrecarga y Sobrescritura) | Coevaluación: 100%
 | Isaías Humberto Mezquita García | MG-69776-25 | Interfaces | _(pendiente)_ |
 | Cristina Eunice Gómez Canales | GC-69628-25 | Integración final del proyecto | _(pendiente)_ |
 
@@ -91,4 +91,5 @@ _(Completar antes de la entrega: qué herramienta se usó, para qué tareas espe
 ## Enlace al repositorio
 
 `(pendiente de agregar en la tarjeta de Kanban del Laboratorio II, antes del 09 de octubre, 11:59 p.m.)`
+
 
