@@ -21,7 +21,7 @@ public class MiembroPremium extends Miembro {
     public void cancelar(String horario) {
         Reserva reserva = retirarReserva(horario);
         if (reserva == null) {
-            System.out.println(nombre + " (Premium) no tiene reserva en " + horario);
+            System.out.println(nombre + " (Premium) no tiene reserva en " + horario); // 'nombre' viene de Persona
             return;
         }
         System.out.println(nombre + " (Premium) canceló " + horario

@@ -55,7 +55,7 @@ public class Main {
         }
 
         System.out.println("\n--- Reservas activas por socio ---");
-        Miembro[] socios = {ana, diego, carlos, sofia};
+        Miembro[] socios = {ana, diego, carlos, sofia}; // carlos y sofia son Premium
         for (Miembro m : socios) {
             System.out.println(m.getNombre() + ": " + m.cantidadReservas()
                     + " reserva(s) | Total: " + Gimnasio.dinero(m.calcularTotalReservas()));

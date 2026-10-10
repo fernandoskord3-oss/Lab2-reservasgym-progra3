@@ -60,10 +60,9 @@ Ejemplo: Ana reserva para 3 personas → $3.00 + 2 × $2.00 = $7.00. Si cancela,
 | Melvin Alexander García Ramos | GR-67963-24 | Clases abstractas | Coevaluación: 100% |
 | Edgardo Alexander Castellanos Paredes | CP-69742-25 | Polimorfismo por sobrecarga |Coevaluación: 100%|
 Fernanda Aneliz Cortez Chavez | CC-69741-25 | Polimorfismo (Sobrecarga y Sobrescritura) | Coevaluación: 100%
-| Isaías Humberto Mezquita García | MG-69776-25 | Interfaces | _(pendiente)_ |
-| Cristina Eunice Gómez Canales | GC-69628-25 | Integración final del proyecto | _(pendiente)_ |
+| Isaías Humberto Mezquita García | MG-69776-25 | Interfaces | Coevaluación: 100% | 
+| Cristina Eunice Gómez Canales | GC-69628-25 | Integración final del proyecto |Coevaluación: 100% |
 
-> El porcentaje de participación es una escala independiente de 0% a 100% por persona (no debe sumar 100% entre todos), acordado en consenso por el equipo.
 
 ## Requisitos
 
@@ -82,14 +81,9 @@ Fernanda Aneliz Cortez Chavez | CC-69741-25 | Polimorfismo (Sobrecarga y Sobresc
 
 El avance del proyecto se registra semana a semana en el tablero Kanban del curso, con tarjetas trazables a los contenidos de las Unidades II y III (semanas 6 a 12).
 
-Enlace al tablero: `(pendiente)`
+Enlace al tablero: `https://github.com/fernandoskord3-oss/Lab2-reservasgym-progra3/blob/main/README.md`
 
-## Uso de herramientas de IA
 
-_(Completar antes de la entrega: qué herramienta se usó, para qué tareas específicas se usó, y cómo se validó o corrigió el resultado generado.)_
 
-## Enlace al repositorio
-
-`(pendiente de agregar en la tarjeta de Kanban del Laboratorio II, antes del 09 de octubre, 11:59 p.m.)`
 
 
