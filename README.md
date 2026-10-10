@@ -3,6 +3,8 @@
 Proyecto incremental de la asignatura Programación III (LG-016), ciclo 02-2026.
 Universidad Pedagógica de El Salvador "Dr. Luis Alonso Aparicio".
 
+**Enlace al repositorio:** https://github.com/fernandoskord3-oss/Lab2-reservasgym-progra3
+
 ## Descripción del proyecto
 
 Sistema para gestionar la membresía y las reservas de un gimnasio: control de horarios, espacios disponibles y registro de clientes.
@@ -56,13 +58,14 @@ Ejemplo: Ana reserva para 3 personas → $3.00 + 2 × $2.00 = $7.00. Si cancela,
 
 | Integrante | Carnet | Concepto individual defendido | % de participación |
 |---|---|---|---|
-| Fernando Miguel Elías Soriano | ES-67880-24 | Herencia multinivel | Coevaluación: 100% |
-| Melvin Alexander García Ramos | GR-67963-24 | Clases abstractas | Coevaluación: 100% |
-| Edgardo Alexander Castellanos Paredes | CP-69742-25 | Polimorfismo por sobrecarga |Coevaluación: 100%|
-Fernanda Aneliz Cortez Chavez | CC-69741-25 | Polimorfismo (Sobrecarga y Sobrescritura) | Coevaluación: 100%
-| Isaías Humberto Mezquita García | MG-69776-25 | Interfaces | Coevaluación: 100% | 
-| Cristina Eunice Gómez Canales | GC-69628-25 | Integración final del proyecto |Coevaluación: 100% |
+| Fernando Miguel Elías Soriano | ES-67880-24 | Herencia multinivel | 100% |
+| Melvin Alexander García Ramos | GR-67063-24 | Clases abstractas | 100% |
+| Edgardo Alexander Castellanos Paredes | CP-69742-25 | Polimorfismo por sobrecarga | 100% |
+| Fernanda Aneliz Cortez Chavez | CC-69741-25 | Polimorfismo (sobrecarga y sobrescritura) | 100% |
+| Isaías Humberto Mezquita García | MG-69776-25 | Interfaces | 100% |
+| Cristina Eunice Gómez Canales | GC-69628-25 | Integración final del proyecto | 100% |
 
+> El porcentaje de participación es una escala independiente de 0% a 100% por persona (no debe sumar 100% entre todos), acordado en consenso por el equipo.
 
 ## Requisitos
 
@@ -73,7 +76,7 @@ Fernanda Aneliz Cortez Chavez | CC-69741-25 | Polimorfismo (Sobrecarga y Sobresc
 
 1. Clonar o abrir este repositorio en IntelliJ IDEA.
 2. Verificar que el SDK del proyecto sea JDK 21 (`File > Project Structure > Project`).
-3. Abrir la clase `Main.java` (en `src/.../Main.java`).
+3. Abrir la clase `Main.java` (en `src/com/gimnasio/Main.java`).
 4. Ejecutar con el botón ▶ junto a `public static void main`, o `Run > Run 'Main.main()'`.
 5. La consola debe mostrar el caso de uso de prueba con la jerarquía, el polimorfismo y la interfaz funcionando.
 
@@ -81,9 +84,8 @@ Fernanda Aneliz Cortez Chavez | CC-69741-25 | Polimorfismo (Sobrecarga y Sobresc
 
 El avance del proyecto se registra semana a semana en el tablero Kanban del curso, con tarjetas trazables a los contenidos de las Unidades II y III (semanas 6 a 12).
 
-Enlace al tablero: `https://github.com/fernandoskord3-oss/Lab2-reservasgym-progra3/blob/main/README.md`
+Enlace al tablero: https://github.com/fernandoskord3-oss/Lab2-reservasgym-progra3/blob/main/README.md
 
+## Uso de herramientas de IA
 
-
-
-
+Se utilizó un asistente de IA (Claude) como apoyo para explicar conceptos de herencia, clases abstractas, polimorfismo e interfaces, para proponer una base de código del dominio del gimnasio y para redactar este README. Todo el código se revisó y se probó en el equipo: se compiló y ejecutó en IntelliJ IDEA con JDK 21, se corrigieron los errores de compilación encontrados y cada integrante preparó la explicación del concepto que defiende.
